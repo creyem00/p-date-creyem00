@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<project name="Practica Date" default="compilar" basedir="." >
+
+
+    <property name="fuente" value="./src" />
+    <property name="destino" value="./classes" />
+    
+
+   
+    <target name="compilar">
+      <mkdir dir="${destino}"/>
+      <javac includeantruntime="false" srcdir="${fuente}" destdir="${destino}"/>
+    </target>
+
+    
+
+</project>
